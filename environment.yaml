@@ -1,5 +1,6 @@
 channels:
   - pytorch
+  - nvidia
   - conda-forge
   - defaults
 dependencies:
@@ -7,6 +8,7 @@ dependencies:
   - pip
 
   - pytorch
+  - pytorch-cuda
   - torchvision
   - transformers
   - datasets
