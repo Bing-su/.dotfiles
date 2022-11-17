@@ -32,3 +32,9 @@ sudo chsh -s $(which zsh) [USER_NAME]
 ```sh
 curl -o miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
+
+### WSL cuda LD_LIBRARY_PATH
+
+```sh
+export LD_LIBRARY_PATH=/usr/lib/wsl/lib
+```
