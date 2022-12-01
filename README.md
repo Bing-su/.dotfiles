@@ -27,7 +27,7 @@ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/instal
 sudo chsh -s $(which zsh) [USER_NAME]
 ```
 
-### install [miniconda](https://docs.conda.io/en/latest/miniconda.html) (linux)
+### download [miniconda](https://docs.conda.io/en/latest/miniconda.html) (linux)
 
 ```sh
 curl -o miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -37,4 +37,10 @@ curl -o miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux
 
 ```sh
 export LD_LIBRARY_PATH=/usr/lib/wsl/lib
+```
+
+### [code-server](https://code.visualstudio.com/docs/remote/vscode-server)
+
+```sh
+wget -O- https://aka.ms/install-vscode-server/setup.sh | sh
 ```
