@@ -44,3 +44,10 @@ export LD_LIBRARY_PATH=/usr/lib/wsl/lib
 ```sh
 wget -O- https://aka.ms/install-vscode-server/setup.sh | sh
 ```
+
+### Long live colab session
+
+```py
+%%html
+<audio src="https://henk.tech/colabkobold/silence.m4a" controls>
+```
