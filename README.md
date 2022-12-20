@@ -49,5 +49,7 @@ wget -O- https://aka.ms/install-vscode-server/setup.sh | sh
 
 ```py
 %%html
-<audio src="https://henk.tech/colabkobold/silence.m4a" controls>
+<audio src="https://github.com/Bing-su/.dotfiles/raw/main/silence.flac" controls>
 ```
+
+<audio src="https://github.com/Bing-su/.dotfiles/raw/main/silence.flac" controls>
