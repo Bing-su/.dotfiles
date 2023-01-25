@@ -2,6 +2,6 @@
 profile = "black"
 
 [tool.ruff]
-select = ["A", "B", "C4", "E", "F", "N", "PT", "UP", "W"]
+select = ["A", "B", "C4", "E", "F", "I001", "N", "PT", "UP", "W"]
 ignore = ["B008", "B905", "E501"]
 unfixable = ["F401"]
