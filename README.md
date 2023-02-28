@@ -27,11 +27,17 @@ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/instal
 sudo chsh -s $(which zsh) [USER_NAME]
 ```
 
-### download [miniconda](https://docs.conda.io/en/latest/miniconda.html) (linux)
+### conda
 
-```sh
-curl -o miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-```
+[miniconda](https://docs.conda.io/en/latest/miniconda.html)
+
+- [linux amd64](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh)
+- [linux arm64](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh)
+
+[mambaforge](https://github.com/conda-forge/miniforge)
+
+- [linux amd64](https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh)
+- [linux arm64](https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-aarch64.sh)
 
 ### WSL cuda LD_LIBRARY_PATH
 
