@@ -39,6 +39,12 @@ sudo chsh -s $(which zsh) [USER_NAME]
 - [linux amd64](https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh)
 - [linux arm64](https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-aarch64.sh)
 
+### torch
+
+```
+https://download.pytorch.org/whl/torch_stable.html
+```
+
 ### WSL cuda LD_LIBRARY_PATH
 
 ```sh
@@ -60,4 +66,4 @@ wget -O- https://aka.ms/install-vscode-server/setup.sh | sh
 
 <audio src="https://github.com/Bing-su/.dotfiles/raw/main/silence.flac" controls>
 
-[![kofi](https://storage.ko-fi.com/cdn/kofi1.png)](https://ko-fi.com/ks2515)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F1L7V2N)
