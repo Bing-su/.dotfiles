@@ -59,3 +59,5 @@ wget -O- https://aka.ms/install-vscode-server/setup.sh | sh
 ```
 
 <audio src="https://github.com/Bing-su/.dotfiles/raw/main/silence.flac" controls>
+
+[![kofi](https://storage.ko-fi.com/cdn/kofi1.png)](https://ko-fi.com/ks2515)
