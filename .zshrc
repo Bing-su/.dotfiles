@@ -51,8 +51,7 @@ zinit light starship/starship
 zinit wait"1" lucid from"gh-r" as"null" for \
      sbin"fzf"          junegunn/fzf \
      sbin"**/fd"        @sharkdp/fd \
-     sbin"**/bat"       @sharkdp/bat \
-     sbin"exa* -> exa"  ogham/exa
+     sbin"**/bat"       @sharkdp/bat
 
 # Autosuggestions & fast-syntax-highlighting
 zinit ice wait lucid atinit"ZINIT[COMPINIT_OPTS]=-C; zpcompinit; zpcdreplay"
