@@ -63,10 +63,9 @@ zinit load zsh-users/zsh-autosuggestions
 
 zinit load zsh-users/zsh-history-substring-search
 
-zinit snippet OMZP::git
-zinit snippet OMZP::docker
-zinit snippet OMZP::kubectl
-
-zinit snippet OMZP::rust
+# zinit snippet OMZP::git
+# zinit snippet OMZP::docker
+# zinit snippet OMZP::kubectl
+# zinit snippet OMZP::rust
 
 ### End of Zinit's installer chunk
