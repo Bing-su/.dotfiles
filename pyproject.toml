@@ -1,7 +1,7 @@
 [tool.isort]
 profile = "black"
 
-[tool.ruff]
+[tool.ruff.lint]
 select = [
     "A",
     "B",
