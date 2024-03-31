@@ -1,6 +1,9 @@
 [tool.isort]
 profile = "black"
 
+[tool.ruff]
+target-version = "py311"
+
 [tool.ruff.lint]
 select = [
     "A",
@@ -16,16 +19,23 @@ select = [
     "I001",
     "ISC",
     "N",
+    "PD",
     "PERF",
     "PIE",
+    "PL",
     "PT",
     "PTH",
     "RET",
     "RUF",
+    "S",
     "SIM",
     "T20",
+    "TRY",
     "UP",
     "W",
 ]
 ignore = ["B008", "B905", "E501"]
 unfixable = ["F401"]
+
+[tool.ruff.lint.pyupgrade]
+keep-runtime-typing = true
