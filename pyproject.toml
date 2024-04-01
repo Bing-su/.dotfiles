@@ -34,7 +34,7 @@ select = [
     "UP",
     "W",
 ]
-ignore = ["B008", "B905", "E501"]
+ignore = ["B905", "E501"]
 unfixable = ["F401"]
 
 [tool.ruff.lint.pyupgrade]
