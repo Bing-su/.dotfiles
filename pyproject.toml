@@ -30,6 +30,7 @@ select = [
     "S",
     "SIM",
     "T20",
+    "TC",
     "TRY",
     "UP",
     "W",
