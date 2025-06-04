@@ -14,7 +14,7 @@ repos:
       - id: mixed-line-ending
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.11.8
+    rev: v0.11.12
     hooks:
       - id: ruff
         args: [--fix, --exit-non-zero-on-fix]
@@ -31,8 +31,13 @@ repos:
       - id: black
 
   - repo: https://github.com/RobertCraigie/pyright-python
-    rev: v1.1.400
+    rev: v1.1.401
     hooks:
       - id: pyright
         additional_dependencies:
           - pydantic
+
+  - repo: https://github.com/DetachHead/basedpyright-pre-commit-mirror
+    rev: 1.29.2
+    hooks:
+    - id: basedpyright
