@@ -14,7 +14,7 @@ repos:
       - id: mixed-line-ending
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.4
+    rev: v0.15.8
     hooks:
       - id: ruff-check
         args: [--fix, --exit-non-zero-on-fix]
@@ -26,18 +26,18 @@ repos:
       - id: prettier
 
   - repo: https://github.com/oxc-project/mirrors-oxfmt
-    rev: main
+    rev: v0.43.0
     hooks:
       - id: oxfmt
 
   - repo: https://github.com/biomejs/pre-commit
-    rev: v2.4.4
+    rev: v2.4.10
     hooks:
       - id: biome-check
       - id: biome-format
 
   - repo: https://github.com/psf/black-pre-commit-mirror
-    rev: 26.1.0
+    rev: 26.3.1
     hooks:
       - id: black
 
@@ -49,6 +49,6 @@ repos:
           - pydantic
 
   - repo: https://github.com/DetachHead/basedpyright-prek-mirror
-    rev: 1.38.2
+    rev: 1.38.4
     hooks:
       - id: basedpyright
