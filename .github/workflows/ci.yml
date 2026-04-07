@@ -10,11 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - uses: astral-sh/setup-uv@v7
+      - uses: j178/prek-action@v2
+        with:
+          install-only: true
       - name: Update pre-commit hooks
-        run: uvx prek auto-update
+        run: prek auto-update
 
-      - uses: EndBug/add-and-commit@v9
+      - uses: EndBug/add-and-commit@v10
         with:
           default_author: github_actions
           message: "Update pre-commit hooks"
