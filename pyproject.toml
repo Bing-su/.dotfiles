@@ -1,11 +1,11 @@
-[tool.isort]
-profile = "black"
-
 [tool.ruff]
 target-version = "py313"
 
+[tool.ruff.format]
+docstring-code-format = true
+
 [tool.ruff.lint]
-select = [
+extend-select = [
   "A",
   "B",
   "C4",
