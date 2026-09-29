@@ -1,0 +1,60 @@
+[workspace.lints.clippy]
+get_unwrap = "warn"
+indexing_slicing = "warn"
+panic = "warn"
+panic_in_result_fn = "warn"
+# Don't Panic - prevent panics from unwraps and unsafe slicing or indexing
+string_slice = "warn"
+todo = "warn"
+unchecked_time_subtraction = "warn"
+unimplemented = "warn"
+unreachable = "warn"
+unwrap_in_result = "warn"
+unwrap_used = "warn"
+# Optional - see post for caveats
+# expect_used = "warn"
+# arithmetic_side_effects = "warn"
+
+assertions_on_result_states = "warn"
+# Don't Fail Silently - prevent dropped futures and swallowed errors
+let_underscore_future = "warn"
+let_underscore_must_use = "warn"
+map_err_ignore = "warn"
+unused_result_ok = "warn"
+
+# Don't Do Bad Async Stuff - prevent deadlocks and concurrency bugs
+await_holding_lock = "warn"
+await_holding_refcell_ref = "warn"
+if_let_mutex = "warn"  # only relevant on editions before 2024
+large_futures = "warn"
+
+# Don't Do Unsafe Things with Memory
+mem_forget = "warn"
+multiple_unsafe_ops_per_block = "warn"
+undocumented_unsafe_blocks = "warn"
+unnecessary_safety_comment = "warn"
+unnecessary_safety_doc = "warn"
+
+cast_sign_loss = "warn"
+# Don't Do Potentially Incorrect Things with Numbers
+float_cmp = "warn"
+float_cmp_const = "warn"
+invalid_upcast_comparisons = "warn"
+lossy_float_literal = "warn"
+# Optional - these effectively force you to document numeric invariants
+# cast_possible_wrap = "warn"
+# cast_precision_loss = "warn"
+# cast_possible_truncation = "warn"
+
+dbg_macro = "warn"
+debug_assert_with_mut_call = "warn"
+expl_impl_clone_on_copy = "warn"
+infallible_try_from = "warn"
+iter_not_returning_iterator = "warn"
+# Don't Do Bad Things That are Easy to Avoid
+rc_mutex = "warn"
+
+# Don't `allow` Your Way Around These Lints - every suppression must be
+# a deliberate #[expect(..., reason = "…")] rather than a silent #[allow]
+allow_attributes = "warn"
+allow_attributes_without_reason = "warn"
