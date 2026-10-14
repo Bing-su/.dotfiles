@@ -3,3 +3,6 @@ allow-panic-in-tests = true
 allow-unwrap-in-tests = true
 allow-expect-in-tests = true
 allow-dbg-in-tests = true
+cognitive-complexity-threshold = 20
+excessive-nesting-threshold = 4
+too-many-lines-threshold = 100

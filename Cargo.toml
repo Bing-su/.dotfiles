@@ -27,7 +27,7 @@ unused_result_ok = "warn"
 # Don't Do Bad Async Stuff - prevent deadlocks and concurrency bugs
 await_holding_lock = "warn"
 await_holding_refcell_ref = "warn"
-if_let_mutex = "warn" # only relevant on editions before 2024
+if_let_mutex = "warn"  # only relevant on editions before 2024
 large_futures = "warn"
 
 # Don't Do Unsafe Things with Memory
@@ -60,3 +60,8 @@ rc_mutex = "warn"
 # a deliberate #[expect(..., reason = "…")] rather than a silent #[allow]
 allow_attributes = "warn"
 allow_attributes_without_reason = "warn"
+
+# Etc
+cognitive_complexity = "warn"
+excessive_nesting = "warn"
+too_many_lines = "warn"
